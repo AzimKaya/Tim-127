@@ -26,7 +26,7 @@ public class C05_DataCasting {
         //str= bl;
        // str= chr,
 
-        //Sayisal degerleer alan veriable'lara baska sayisal data turlerindeki degerler ANABİLİR Mİ?
+        //Sayisal degerleer alan veriable'lara baska sayisal data turlerindeki degerler ATABİLİR Mİ?
 
         dbl = sayiİnt;
         //dbl =byte;
@@ -42,6 +42,29 @@ public class C05_DataCasting {
         //shrt =sayiİnt;
         //shrt= byte;
         //shrt = chr;
+
+
+
+        /*
+
+
+
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/AzimKaya/Java-2023-.git
+git push -u origin main
+
+
+
+         */
+
+
+
+
+
+
+
+
 
 
 

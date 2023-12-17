@@ -30,7 +30,7 @@ public class C05_ListedenElemanSilme {
         isimler.add("Ali");
 
 
-        String silinecekHarf="m";
+        String silinecekHarf="a";
 
         System.out.println(istenmeyenleriSil(isimler,silinecekHarf));
 

@@ -8,7 +8,7 @@ public class C07_Arreys {
         //Soru 5- Kullanicidan array’in boyutunu ve elementlerini alip array’i
         //        olusturan ve bize donduren bir method olusturun.
 
-
+stringArrayOlustur();
 
 
 

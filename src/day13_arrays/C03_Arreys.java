@@ -14,11 +14,20 @@ public class C03_Arreys {
 
         for (int i = 0; i <arr.length ; i++) {
 
-            arr[i]+=2;
+            arr[i]+=4;
 
 
         }
         System.out.println("Array'in son hali: " + Arrays.toString(arr));
+
+        System.out.println("==================");
+        for (int i = 0; i <arr.length ; i++) {
+
+            System.out.print(arr[i]);
+
+
+        }
+
 
 
     }

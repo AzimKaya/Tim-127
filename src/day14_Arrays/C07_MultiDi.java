@@ -1,5 +1,7 @@
 package day14_Arrays;
 
+import java.util.Arrays;
+
 public class C07_MultiDi {
     public static void main(String[] args) {
 
@@ -8,7 +10,7 @@ public class C07_MultiDi {
         // arr'nin tum elementlerini yazdirin
 
         for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]+" ");
+            System.out.print(arr[i]+" ");
 
         }
 
@@ -24,9 +26,16 @@ public class C07_MultiDi {
             }
         } // 3 5 6 2 7 1 5 8 1
 
+        String[][] isimler = {{"Ali","hasan","Cemil"},{"Cemal","Samet","Kemal"},{"Erik"}};
 
+        System.out.println(Arrays.deepToString(isimler));
+        for (int i = 0; i <isimler.length ; i++) {
+            for (int j = 0; j <isimler[i].length ; j++) {
+                System.out.print(isimler[i][j] + " ");
 
+            }
 
+        }
 
     }
 }

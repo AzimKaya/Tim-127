@@ -2,6 +2,7 @@ package day16_ArrasList_ForFachLoop;
 
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 
@@ -14,6 +15,27 @@ public class C01_remove {
         isimler.add("Esra");
         isimler.add("Hamza");
         isimler.add("Basak");
+
+        System.out.println(isimler);
+
+        System.out.println(isimler.remove("Deniz"));
+        System.out.println(isimler);
+        System.out.println(isimler.removeAll(isimler));
+        System.out.println(isimler);
+
+        List<String> isimler5 = new ArrayList<>();
+        isimler5.add("Deniz");
+        isimler5.add("Omer");
+        isimler5.add("Esra");
+        isimler5.add("Hamza");
+        isimler5.add("Basak");
+
+        System.out.println(isimler5);
+
+        System.out.println(isimler5.size());
+        System.out.println(isimler5.contains("Deniz"));
+        System.out.println(isimler5.indexOf(1));
+
 
         List<String> silinecekler2 = new ArrayList<>();
         silinecekler2.add("Deniz");
@@ -53,6 +75,8 @@ public class C01_remove {
 
         sayilar.clear();
         System.out.println(sayilar);//[]
+
+
 
 
     }

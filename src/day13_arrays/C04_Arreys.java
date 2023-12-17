@@ -1,5 +1,7 @@
 package day13_arrays;
 
+import java.util.Arrays;
+
 public class C04_Arreys {
 
     public static void main(String[] args) {
@@ -8,17 +10,24 @@ public class C04_Arreys {
         // Verilen String bir array'de
         // istenen harfi iceren elementleri yazdirin
 
+
+
+
         String [] isimler = { "Huseyin","Mehmet","Esra","Ercan","Omer"};
-        String istenenHarf="e";
+     String istenenHarf="E";
 
         for (int i = 0; i < isimler.length; i++) {
 
             if (isimler[i].contains(istenenHarf)){
 
-                System.out.println(isimler[i]+" ");
+                System.out.print(isimler[i]+" ");
             }
 
         }
+
+
+
+
 
     }
 }

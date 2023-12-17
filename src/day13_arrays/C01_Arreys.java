@@ -24,8 +24,11 @@ public class C01_Arreys {
         int[] arr2 ={4,1,7,5};
 
         System.out.println(arr2[1]);
+        /*
         System.out.println(arr2[3]);
+
         System.out.println(arr2[arr2.length-1]); // son elementi yazdirmak istersek 5
+
 
         // ilk array'de deger atamasi yapmadik
 
@@ -41,7 +44,7 @@ public class C01_Arreys {
 
         arr = new int[20];
 
-
+*/
 
 
 

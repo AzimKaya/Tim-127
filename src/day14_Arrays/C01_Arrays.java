@@ -6,7 +6,7 @@ public class C01_Arrays {
         // sonucu bize donduren bir method yaziniz.
 
         int[]arr ={3,-5,4,2,-6,-7,8,3,-1};
-
+ 
         System.out.println(pozitifSayilariTopla(arr));
 
     }

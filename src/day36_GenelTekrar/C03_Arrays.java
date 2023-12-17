@@ -14,11 +14,11 @@ public class C03_Arrays {
         String[] arr1 = {"A","C","B","J","V","G","Z","L","M"} ;
         String[] arr2 = {"S","R","B","S","R","T","T","B","K","G","Z","L"};
 
-        System.out.println(Arrays.toString(ortakElemanBul(arr1,arr2)));
 
+ortakElemanBul(arr1,arr2);
 
     }
-    public static String [] ortakElemanBul(String [] arr1,String [] arr2){
+    public static void ortakElemanBul(String [] arr1,String [] arr2){
 
         List<String> ortakElementlerList=new ArrayList<>();
 
@@ -34,9 +34,8 @@ public class C03_Arrays {
             }
         }
 
+        System.out.println(ortakElementlerList);
 
-
-        return  o;
 
     }
 

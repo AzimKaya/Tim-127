@@ -6,10 +6,12 @@ public class C05_Arreys {
         // bir method olusturun.
 
         String [] isimler = { "Huseyin","Mehmet","Esra","Ercan","Omer"};
+        enUzunEnKisaYazdir(isimler);
 
 
 
     }
+
 
 
     public static void enUzunEnKisaYazdir(String[]arr){
@@ -17,7 +19,7 @@ public class C05_Arreys {
 
 
         String enKisaİsim=" ";
-        String enUzunİsim="";
+        String enUzunİsim=" ";
 
         for (int i = 0; i <arr.length ; i++) {
 
@@ -25,10 +27,15 @@ public class C05_Arreys {
                 enUzunİsim=arr[i];
             }
 
+
             if (arr[i].length()<enKisaİsim.length()){
                 enKisaİsim=arr[i];
             }
 
+
         }
+        System.out.println("En uzun isim"+enUzunİsim);
+        System.out.println("En kısa isim:"+enKisaİsim);
+
     }
 }

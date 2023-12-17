@@ -15,6 +15,7 @@ public class C06_Arreys {
         elemanSyisiYazdir(arr,11);//Aranan eleman array'de yok
 
         elemanSyisiYazdir(arr,7);//Aranan eleman array'de:  1kere kullanılmıs
+        elemanSyisiYazdir(arr,2);
 
 
     }
